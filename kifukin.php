@@ -842,7 +842,7 @@ function validation($data) {
     </form>
     <?php endif; ?>
 
-
+                        <p>メールアドレス</p>
 
 <!--ここからjavascript--> 
 <script type="text/javascript">
@@ -876,7 +876,7 @@ function validation($data) {
 /*
     var Form = document.getElementById("check");
     if( $data['type'] == 'マンスリー'){
-        //判定式がTrueの場合、送信先はXXX.htmlになる
+        //判定式がTrueの場合、送信先は***.htmlになる
         paymentForm.action="https://www.yahoo.co.jp";
     }
 */
